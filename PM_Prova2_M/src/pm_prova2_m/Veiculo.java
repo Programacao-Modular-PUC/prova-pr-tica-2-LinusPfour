@@ -4,20 +4,16 @@
  */
 package pm_prova2_m;
 
-/**
- *
- * @author glbra
- */
 public abstract class Veiculo {
-    
+
     private String placa;
     private String modelo;
     private int anoFabricacao;
     private double valorDiaria;
     private double quilometragem;
-    private StatusVeiculo status;
+    StatusVeiculo status;
 
-    public Veiculo(String placa, String modelo, int anoFabricacao, double valorDiaria,double quilometragem, StatusVeiculo status) {
+    public Veiculo(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem, StatusVeiculo status) {
 
         this.placa = placa;
         this.modelo = modelo;
@@ -78,6 +74,5 @@ public abstract class Veiculo {
     public abstract void exibirDetalhes();
 
     public abstract boolean possuiSeguroEspecial();
-    
-}
 
+}

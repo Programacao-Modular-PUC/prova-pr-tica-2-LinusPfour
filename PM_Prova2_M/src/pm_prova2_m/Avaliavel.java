@@ -3,11 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
 package pm_prova2_m;
-
-/**
- *
- * @author glbra
- */
+    
 public interface Avaliavel {
     
     public abstract void avaliar(int nota);
